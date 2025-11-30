@@ -143,6 +143,7 @@ header nav ul.nav-links li a:hover{
     min-height:70vh;
     flex-wrap:wrap;
     z-index:0;
+    padding-bottom:100px;
 }
 .hero-content { flex:1; z-index:1; }
 .hero-content h1 { font-size: clamp(2rem,4vw,3.5rem); margin-bottom:15px; }
@@ -260,3 +261,4 @@ footer { text-align:center; padding:30px 20px; transition:background 0.3s; color
     .menu-btn { display:flex; }
     .nav-links.active { display:flex; flex-direction:column; gap:15px; }
 }
+
